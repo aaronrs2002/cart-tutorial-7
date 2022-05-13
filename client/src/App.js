@@ -112,12 +112,12 @@ function App() {
 
 
   //CLIENT SIDE GET ALL ITEMS
-  const GrabAllItems = (token) => {
+  const GrabAllItems = (theToken) => {
     axios.get("/api/items/all-items/",
       {
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ` + token
+          Authorization: `Bearer ` + theToken
         }
       }
 
