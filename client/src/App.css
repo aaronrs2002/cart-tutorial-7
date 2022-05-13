@@ -48,3 +48,15 @@ div.animated[role="alert"] {
   z-index: 150;
   width: 100%;
 }
+
+/*start 767*/
+@media (max-width: 767px) {
+  .badge {
+    display: block;
+    width: 100%;
+  }
+
+  .container.my-5 {
+    margin-bottom: 8rem !important;
+  }
+}
