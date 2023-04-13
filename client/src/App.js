@@ -215,7 +215,7 @@ function App() {
             validateUser(res.data.success, res.data.token, email, "logged in");
             localStorage.removeItem("password");
           } else {
-            showAlert("That didn't work: " + res.data.succes, "danger")
+            showAlert("That didn't work: " + res.data.data, "danger")
           }
         },
         (error) => {
